@@ -12,7 +12,7 @@ gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-gem 'bootstrap', '~> 4.0.0'
+gem 'materialize-sass'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
