@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Use Materialize CSS framework
 gem 'materialize-sass'
 
 # Use Puma as the app server
