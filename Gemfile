@@ -13,9 +13,8 @@ gem 'rails', '~> 5.1.4'
 gem 'pg'
 
 # Use Materialize CSS framework
-# gem 'materialize-sass'
+gem 'materialize-sass'
 
-gem 'bootstrap', '~> 4.0.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
