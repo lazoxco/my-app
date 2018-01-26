@@ -16,26 +16,24 @@
     <nav>
       <div class="nav-wrapper">
         <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <%= link_to 'Logo', root_path, class: 'brand-logo' %>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><%= link_to 'About', about_path %></li>
-          <li><%= link_to 'Link', '#' %></li>
-          <li><%= link_to 'Link', '#' %></li>
-          <li><%= link_to 'Link', '#' %></li>
-        </ul>
-        
-        <ul class="side-nav" id="mobile-demo">
-          <li><%= link_to 'About', about_path %></li>
-          <li><%= link_to 'Link', '#' %></li>
-          <li><%= link_to 'Link', '#' %></li>
-          <li><%= link_to 'Link', '#' %></li>
-        </ul>
+        <div class="container">
+          <%= link_to 'Logo', root_path, class: 'brand-logo' %>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><%= link_to 'About', about_path %></li>
+
+          </ul>
+
+          <ul class="side-nav" id="mobile-demo">
+            <li><%= link_to 'About', about_path %></li>
+          </ul>
+        </div>
+
       </div>
     </nav>
 
-    <%= yield %>
-
-
+    <div class="container">
+      <%= yield %>
+    </div>
 
 </html>
